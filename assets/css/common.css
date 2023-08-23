@@ -1,0 +1,126 @@
+/* 공통 */
+.wrapper{
+    min-width: 1340px;
+}
+
+
+.inner{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+/* sp1 */
+.sc-news .group-issue .btn-all::after,
+.widget_link .banner_rolling .link_banner i,
+.naver_more_link .more_text::after,
+.naver_more_link .more_text::before,
+.widgetboard .wj_first .widget_item .papago_box::after,
+.stockmarket button::before,
+.column-right .weather .weather_header a::before,
+.cmmerc_area .commerc_right .Quicklink_area i::after,
+.notice_area .link_all::after,
+.sc-shopping .group-control .control-area .btn-prev::after,
+.sc-shopping .group-control .control-area .btn-next::after,
+.sc-news .group-control .control-area .btn-prev::after,
+.sc-news .group-control .control-area .btn-next::after,
+.sc-login .link-login::before,
+.sc-news .group-control .set-area [class*="btn-"]::after,
+.gnb .nav-item a::before,
+.gnb .nav-item a::after,
+.header .group-search .btn-arrow::after,
+.header .group-search .btn-keyboard::after,
+.header .group-search .btn-submit::after,
+.header .link-pay::after,
+.header .btn-alert::after,
+.header .btn-menu::after{
+    content: '';
+    display: block;
+    background-image: url(../images/sp1.png);
+    background-size: 424px;
+    background-repeat: no-repeat;
+}
+
+
+/* sp2 */
+.column-right .weather .weather_right .module_weather_item .weather_icon.night::before,
+.column-right .weather .weather_right .module_weather_item .weather_icon.Sunny::before,
+.column-right .weather .weather_right .module_weather_item .weather_icon.Cloudy::before,
+.column-right .weather .weather_right .module_weather_item .weather_icon.blur::before,
+.column-right .weather .weater_area .weater_left .weather_ic::before{
+    content: "";
+    display: block;
+    background-image: url(../images/sp2.png);
+    background-size: 641px 587px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+
+/* sp3 */
+
+.commerc_area .commerc_right .Quicklink_area .Quick_ic::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    content: '';
+    display: block;  
+    background-image: url(../images/sp3.png);
+    background-size: 122px 106px;
+    background-repeat: no-repeat;
+}
+
+
+/* sub */
+.column-right .weather .weather_header h2,
+.stockmarket h2{
+    color: #080808;
+    display: inline-block;
+    padding-right: 7px;
+    font-size: 16px;
+    font-weight: 800;
+    vertical-align: top;
+}
+.column-right .weather .weater_area,
+.stockmarket_area
+{
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    display: flex;
+}
+
+.column-right .weather,
+.stockmarket {
+    padding: 0 18px;
+}
+
+.column-right .weather,
+.stockmarket{
+    margin-top: 16px;
+}
+
+.aside_sub_header{
+    position: relative;
+    display: flex;
+    padding: 6px 0;
+    line-height: 40px;
+}
+
+
+.column-right .weather .weather_header p,
+.stckmarket_header .date_wrap
+{
+    color: #606060;
+    margin-left: auto;
+}
+
